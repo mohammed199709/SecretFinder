@@ -66,6 +66,14 @@ _regex = {
     'ssh_dsa_private_key' : r'-----BEGIN DSA PRIVATE KEY-----',
     'ssh_dc_private_key' : r'-----BEGIN EC PRIVATE KEY-----',
     'pgp_private_block' : r'-----BEGIN PGP PRIVATE KEY BLOCK-----',
+    'private_key' : r'-----BEGIN PRIVATE KEY-----',
+    
+    'rsa_public_key' : r'-----BEGIN RSA PUBLIC KEY-----',
+    'ssh_dsa_public_key' : r'-----BEGIN DSA PUBLIC KEY-----',
+    'ssh_dc_public_key' : r'-----BEGIN EC PUBLIC KEY-----',
+    'pgp_public_block' : r'-----BEGIN PGP PUBLIC KEY BLOCK-----',
+    'public_key' : r'-----BEGIN PUBLIC KEY-----',
+    
     'json_web_token' : r'ey[A-Za-z0-9-_=]+\.[A-Za-z0-9-_=]+\.?[A-Za-z0-9-_.+/=]*$',
     'slack_token' : r"\"api_token\":\"(xox[a-zA-Z]-[a-zA-Z0-9-]+)\"",
     'SSH_privKey' : r"([-]+BEGIN [^\s]+ PRIVATE KEY[-]+[\s]*[^-]*[-]+END [^\s]+ PRIVATE KEY[-]+)",
